@@ -1,7 +1,7 @@
 data/raw/data.csv
 data/preprocess/*
 logs/
-models/*
+models/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
