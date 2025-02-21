@@ -1,6 +1,5 @@
 data/raw/data.csv
 data/preprocess/*
-logs/
 models/
 
 # Byte-compiled / optimized / DLL files
