@@ -9,7 +9,6 @@ CREATE TABLE customer_data (
     ind_nuevo VARCHAR,
     antiguedad VARCHAR,
     indrel VARCHAR,
-    ult_fec_cli_1t DATE,
     indrel_1mes VARCHAR,
     tiprel_1mes VARCHAR,
     indresi VARCHAR,
@@ -96,6 +95,9 @@ ALTER TABLE customer_data RENAME COLUMN ind_viv_fin_ult1 TO home_account;
 ALTER TABLE customer_data RENAME COLUMN ind_nomina_ult1 TO payroll;
 ALTER TABLE customer_data RENAME COLUMN ind_nom_pens_ult1 TO pension_payments;
 ALTER TABLE customer_data RENAME COLUMN ind_recibo_ult1 TO direct_debit;
+
+
+select * from customer_data cd where age = ' NA';
 
 
 
