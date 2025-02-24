@@ -1,0 +1,67 @@
+AUPR class 1: 0.1693722943722944
+Counting labels for class 2
+Skip fine-tuning for class 2
+AUPR class 2: 0.8725003141393042
+Counting labels for class 3
+Fine-tuning 3th class model.
+AUPR class 3: 0.19866024473089433
+Counting labels for class 4
+Skip fine-tuning for class 4
+AUPR class 4: 0.7309218914618955
+Counting labels for class 5
+Skip fine-tuning for class 5
+AUPR class 5: 0.9446337089098135
+Counting labels for class 6
+Fine-tuning 6th class model.
+AUPR class 6: 0.3234795535993904
+Counting labels for class 7
+Fine-tuning 7th class model.
+AUPR class 7: 0.5271280123050074
+Counting labels for class 8
+Fine-tuning 8th class model.
+AUPR class 8: 0.554631085273157
+Counting labels for class 9
+Fine-tuning 9th class model.
+AUPR class 9: 0.23904552305209673
+Counting labels for class 10
+Fine-tuning 10th class model.
+AUPR class 10: 0.0818113536181027
+Counting labels for class 11
+Fine-tuning 11th class model.
+AUPR class 11: 0.32265097427393624
+Counting labels for class 12
+Skip fine-tuning for class 12
+AUPR class 12: 0.6701184966289954
+Counting labels for class 13
+Fine-tuning 13th class model.
+AUPR class 13: 0.18757224928339042
+Counting labels for class 14
+Fine-tuning 14th class model.
+AUPR class 14: 0.10160116325885687
+Counting labels for class 15
+Fine-tuning 15th class model.
+AUPR class 15: 0.013343197716009373
+Counting labels for class 16
+Fine-tuning 16th class model.
+AUPR class 16: 0.16134764853369998
+Counting labels for class 17
+Fine-tuning 17th class model.
+AUPR class 17: 0.176863718861538
+Counting labels for class 18
+Skip fine-tuning for class 18
+AUPR class 18: 0.7819246212286387
+Counting labels for class 19
+Fine-tuning 19th class model.
+AUPR class 19: 0.30504424549376247
+Counting labels for class 20
+Skip fine-tuning for class 20
+AUPR class 20: 0.5381604338945248
+Counting labels for class 21
+Skip fine-tuning for class 21
+AUPR class 21: 0.8161487650591327
+Counting labels for class 22
+Skip fine-tuning for class 22
+AUPR class 22: 0.8637737388395433
+Counting labels for class 23
+Skip fine-tuning for class 23
+AUPR class 23: 0.8898342030266502

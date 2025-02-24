@@ -1,0 +1,2 @@
+MAP train at k=3: 0.84
+MAP test at k=3: 0.864

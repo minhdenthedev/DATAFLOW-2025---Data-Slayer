@@ -7,8 +7,9 @@ from pyspark.ml.classification import RandomForestClassifier, GBTClassifier, Log
 from pyspark.sql.functions import udf
 from pyspark.sql.types import IntegerType, ArrayType
 from pyspark.sql.functions import expr
+from xgboost.spark import SparkXGBClassifier
 
-MODEL_TYPE = "lr"
+MODEL_TYPE = "xg"
 
 spark = SparkSession.builder \
     .config("spark.driver.memory", "4g") \
@@ -55,10 +56,15 @@ for i in range(num_classes):
             rf = RandomForestClassifier(featuresCol=feat_vec, labelCol=f"label_{i}", numTrees=10)
         case "lr":
             rf = LogisticRegression(featuresCol=feat_vec, labelCol=f"label_{i}")
+        case "xg":
+            rf = SparkXGBClassifier(
+                features_col=feat_vec,
+                label_col=f"label_{i}"
+            )
         case _:
             rf = GBTClassifier(featuresCol=feat_vec, labelCol=f"label_{i}")
 
     models[f"model_{i}"] = rf.fit(train_df)
-    models[f"model_{i}"].save(f"/home/m1nhd3n/Works/DataEngineer/product_recommendations/models/spark"
-                              f"/include_prev_month/model_{i}_{MODEL_TYPE}")
-
+    models[f"model_{i}"].write().overwrite().save(f"/home/m1nhd3n/Works/DataEngineer/product_recommendations/models"
+                                                  f"/spark"
+                                                  f"/include_prev_month/model_{i}_{MODEL_TYPE}")

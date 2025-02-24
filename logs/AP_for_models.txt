@@ -1,0 +1,24 @@
+AP for model 0: 0.0
+AP for model 1: 0.6769142738243862
+AP for model 2: 0.8557700956160583
+AP for model 3: 0.198620076449455 -> need finetune
+AP for model 4: 0.7118878905701272
+AP for model 5: 0.9531129368950928
+AP for model 6: 0.19332069867328677 -> need finetune
+AP for model 7: 0.449191971189869 -> need ft
+AP for model 8: 0.46954935541417264 -> need ft
+AP for model 9: 0.10122589199618123 -> need ft
+AP for model 10: 0.07232967100095011 -> need ft
+AP for model 11: 0.2492313281194545 -> need ft
+AP for model 12: 0.6430397545861637
+AP for model 13: 0.09207193310615579 -> ft
+AP for model 14: 0.09439725912727552 -> ft
+AP for model 15: 0.03810871246013444 -> ft
+AP for model 16: 0.22700189181486144 -> ft
+AP for model 17: 0.14244258854778957 -> ft
+AP for model 18: 0.7652724239291486
+AP for model 19: 0.21050720152525765 -> ft
+AP for model 20: 0.514401584438978
+AP for model 21: 0.8024477573361131
+AP for model 22: 0.8535574508910292
+AP for model 23: 0.8802353086452676
